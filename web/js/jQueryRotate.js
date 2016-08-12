@@ -3,7 +3,7 @@
  * Licensed under the MIT license: http://www.opensource.org/licenses/mit-license.php
  *
  * Made by Wilq32, wilq32@gmail.com, Wroclaw, Poland, 01.2009
- * Website: http://jqueryrotate.com
+ * Website: http://code.google.com/p/jqueryrotate/
  */
 
 (function($) {
@@ -108,7 +108,7 @@
 
             this._parameters.step = parameters.step || this._parameters.step || null;
             this._parameters.easing = parameters.easing || this._parameters.easing || this._defaultEasing;
-            this._parameters.duration = 'duration' in parameters ? parameters.duration : parameters.duration || this._parameters.duration || 1000;
+            this._parameters.duration = parameters.duration || this._parameters.duration || 2000;
             this._parameters.callback = parameters.callback || this._parameters.callback || this._emptyFunction;
             this._parameters.center = parameters.center || this._parameters.center || ["50%","50%"];
             if (typeof this._parameters.center[0] == "string") {
@@ -258,7 +258,7 @@
             {
                 if (this._canvas||this._vimage||this._img) {
                     var angle = this._parameters.easing(0, actualTime - this._animateStartTime, this._animateStartAngle, this._parameters.animateTo - this._animateStartAngle, this._parameters.duration);
-                    this._rotate((~~(angle*10))/10);
+                    this._rotate((~~(angle*10))/10); //Vitesse de rotation à changer sur le dernier 10
                 }
                 if (this._parameters.step) {
                     this._parameters.step(this._angle);
