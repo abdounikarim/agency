@@ -1,10 +1,11 @@
 {
+    "description": "Abdounikarim.com"
     "name": "casrime/abdounikarim",
     "license": "proprietary",
     "type": "project",
     "autoload": {
         "psr-4": {
-            "": "src/"
+            "abdounikarim": "src/"
         },
         "classmap": [
             "app/AppKernel.php",
