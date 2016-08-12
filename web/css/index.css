@@ -1,0 +1,13 @@
+/* BODY */
+body{
+    background-color: black;
+}
+
+/* OTHER */
+h1{
+    color: whitesmoke;
+    text-transform: uppercase;
+}
+#logo{
+    width: 50%;
+}
