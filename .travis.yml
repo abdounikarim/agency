@@ -7,7 +7,7 @@ git:
   depth: 1
 
 env:
-  - SYMFONY_VERSION="dev-master" DB=mysql
+  - SYMFONY_VERSION="3.1.*" DB=mysql
 
 before_script:
   - composer require symfony/framework-bundle:${SYMFONY_VERSION}
