@@ -1,1 +1,1 @@
-php ../bin/console cache:clear -e prod
+echo php ../bin/console cache:clear -e prod
