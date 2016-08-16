@@ -11,3 +11,7 @@ env:
 
 before_script:
   - composer require symfony/framework-bundle:${SYMFONY_VERSION}
+
+notifications:
+  email: false
+  
