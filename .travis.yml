@@ -14,3 +14,4 @@ before_script:
 
 notifications:
   email: false
+  slack: abdounikarim:m9yO6b17w4D7bgNtUrZYh1sy
