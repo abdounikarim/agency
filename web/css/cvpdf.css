@@ -1,0 +1,125 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: #f2f2f2;
+    width: 794px;
+    margin: auto;
+    height: 1122px;
+}
+h1{
+    font-size: 28px;
+    text-align: center;
+}
+h2 {
+    font-size: 20px;
+    text-align: center;
+}
+h3{
+    display: inline;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+h4{
+    font-size: 14px;
+}
+h5{
+    text-align: center;
+}
+p{
+    font-size: 12px;
+}
+
+/* HEADER */
+header{
+    background-color: black;
+    color: #f2f2f2;
+}
+#header_left, #header_center, #header_right{
+    display: inline-block;
+    vertical-align: middle;
+}
+header img, #experience img{
+    width: 128px;
+}
+
+#header_left img{
+    text-align: left;
+}
+#header_right img{
+    text-align: right;
+}
+
+/* CONTACT */
+#contact_infos{
+    width: 550px;
+    margin: auto;
+}
+#iconleft, #iconright{
+    display: inline-block;
+    vertical-align: top;
+    width: 273px;
+}
+
+/* EXPERIENCE */
+#experience, #formation{
+    width: 550px;
+    margin: auto;
+}
+#experiencetitle{
+    text-align: center;
+}
+.logo, .content{
+    display: inline-block;
+    vertical-align: middle;
+}
+.content{
+    width: 322px;
+}
+
+/* COMPETENCE */
+.competencecontent{
+    padding-top: 10px;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+.competencecontent .skill{
+    display: inline-block;
+}
+.competencecontent img{
+    width: 65px;
+    background-color: #f2f2f2;
+}
+
+/* FORMATION */
+.certificate{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 25px;
+}
+/* FOOTER */
+footer{
+    width: 608px;
+    margin: auto;
+}
+#social, #environnement, #outils{
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+}
+#environnement, #outils{
+    text-align: center;
+}
+#social p{
+    margin-left: 20px;
+}
+#environnement i{
+    margin: 0 12px;
+}
+#outils img{
+    width: 50px;
+    margin: 3px 10px;
+}
+.fa-2x{
+    position: relative;
+    top: 3px;
+}

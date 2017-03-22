@@ -1,0 +1,172 @@
+{% extends 'base.html.twig' %}
+{% block stylesheets %}
+    {{ parent() }}
+    <link rel="stylesheet" type="text/css" href="{{ absolute_url(asset('css/cvpdf.css')) }}">
+{% endblock %}
+{% block body %}
+    <header>
+        <div id="header_left" class="text-left">
+            <img src="{{ absolute_url(asset('img/logoabdouniabdelkarimblanc.png')) }}">
+        </div>
+        <div id="header_center" class="text-center">
+            <h1>EXPERT EN INGÉNIERIE INFORMATIQUE</h1>
+        </div>
+        <div id="header_right" class="text-right">
+            <img src="{{ absolute_url(asset('img/logoabdouniabdelkarimblanc.png')) }}">
+        </div>
+    </header>
+    <main>
+        <div id="infos">
+            <h2>ABDOUNI Abdelkarim</h2>
+        </div>
+        <div id="contact_infos">
+            <div id="iconleft">
+                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                <span>abdounikarim@gmail.com</span><br>
+                <i class="fa fa-mobile" aria-hidden="true"></i>
+                <span>06-45-65-50-16</span>
+            </div>
+            <div id="iconright">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <span>60 impasse Jacques Demy<br>85000 La Roche sur Yon</span><br>
+                <i class="fa fa-globe" aria-hidden="true"></i>
+                <span><a href="http://abdounikarim.com">abdounikarim.com</a></span>
+            </div>
+        </div>
+        <br>
+        <div id="experience">
+            <div id="experiencetitle">
+                <i class="fa fa-suitcase fa-2x" aria-hidden="true"></i>
+                <h3>Expériences</h3>
+            </div>
+            <div id="experiencecontent">
+                <div id="openclassrooms">
+                    <div class="logo">
+                        <img src="{{ absolute_url(asset('img/experience/oc.png')) }}">
+                    </div>
+                    <div class="content">
+                        <h4>Mentor des métiers du web</h4>
+                        <p>De Juin 2015 à Aujourd'hui : Accompagnement des étudiants en formation diplômante de niveau II et III. Validation de compétences lors de la réalisation de projet. Réalisation de soutenance vidéos.</p>
+                    </div>
+                </div>
+                <div id="iesa">
+                    <div class="logo">
+                        <img src="{{ absolute_url(asset('img/experience/iesa.png')) }}">
+                    </div>
+                    <div class="content">
+                        <h4>Intervenant Web</h4>
+                        <p>De Juin 2015 à Décembre 2015 : Accompagnement et évaluation d'étudiants en formation Chef de Projet Multimédia sur des ateliers de réalisations de projets web : module réalisateur web et webdesigner.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="competence">
+            <div id="competencetitle" class="text-center">
+                <i class="fa fa-code fa-2x" aria-hidden="true"></i>
+                <h3>Compétences</h3>
+            </div>
+            <div class="competencecontent">
+                <div id="html" class="skill">
+                    <p><img src="{{ absolute_url(asset('img/skills/html5.jpg')) }}"></p>
+                </div>
+                <div id="css" class="skill">
+                    <p><img src="{{ absolute_url(asset('img/skills/css3.jpg')) }}"></p>
+                </div>
+                <div id="bootstrap" class="skill">
+                    <p><img src="{{ absolute_url(asset('img/skills/bootstrap.jpg')) }}"></p>
+                </div>
+                <div id="javascript" class="skill">
+                    <p><img src="{{ absolute_url(asset('img/skills/javascript.jpg')) }}"></p>
+                </div>
+                <div id="jquery" class="skill">
+                    <p><img src="{{ absolute_url(asset('img/skills/jquery.jpg')) }}"></p>
+                </div>
+                <div id="php" class="skill">
+                    <p><img src="{{ absolute_url(asset('img/skills/php.jpg')) }}"></p>
+                </div>
+                <div id="mysql" class="skill">
+                    <p><img src="{{ absolute_url(asset('img/skills/mysql.jpg')) }}"></p>
+                </div>
+                <div id="wordpress" class="skill">
+                    <p><img src="{{ absolute_url(asset('img/skills/wordpress.jpg')) }}"></p>
+                </div>
+                <div id="symfony" class="skill">
+                    <p><img src="{{ absolute_url(asset('img/skills/symfony.jpg')) }}"></p>
+                </div>
+                <div id="git" class="skill">
+                    <p><img src="{{ absolute_url(asset('img/skills/git.jpg')) }}"></p>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div id="formation">
+            <div id="formationtitle" class="text-center">
+                <i class="fa fa-university fa-2x" aria-hidden="true"></i>
+                <h3>Formation</h3>
+            </div>
+            <div id="formationcontent"><br>
+                <div>
+                    <p><i class="fa fa-2x fa-graduation-cap" aria-hidden="true"></i> <a href="https://openclassrooms.com/paths/expert-e-en-ingenierie-informatique">Expert en ingénierie informatique</a> : Étudiant à OpenClassrooms (Mars 2017 - Aujourd'hui)</p>
+                </div>
+                <div>
+                    <div class="certificate">
+                        <p><i class="fa fa-certificate" aria-hidden="true"></i> Développez des sites PHP professionnels (2016)</p>
+                        <p><i class="fa fa-certificate" aria-hidden="true"></i> Développeur Web PHP/Symfony (2016)</p>
+                    </div>
+                    <div class="certificate">
+                        <p><i class="fa fa-certificate" aria-hidden="true"></i> Disciple du JavaScript (2016)</p>
+                        <p><i class="fa fa-certificate" aria-hidden="true"></i> Intégrateur Web (2015)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <br>
+    <footer>
+        <div id="diverstitle" class="text-center">
+            <i class="fa fa-laptop fa-2x" aria-hidden="true"></i>
+            <h3>Divers</h3>
+        </div>
+        <div id="diverscontent">
+            <div id="social">
+                <h5>Réseaux Sociaux</h5>
+                <p><i class="fa fa-2x fa-linkedin-square"></i> Abdouni Abdelkarim</p>
+                <p><i class="fa fa-2x fa-google-plus-square"></i> Abdouni Karim</p>
+                <p><i class="fa fa-2x fa-twitter-square"></i> @abdounikarim</p>
+                <p><i class="fa fa-2x fa-facebook-square"></i> Abdouni Abdelkarim</p>
+                <p><i class="fa fa-2x fa-youtube-square"></i> Abdouni Karim</p>
+                <p><i class="fa fa-2x fa-skype"></i> abdouni.karim</p>
+            </div>
+            <div id="environnement">
+                <h5>Environnement</h5>
+                <p>Operating System</p>
+                <p>
+                    <i class="fa fa-3x fa-windows" aria-hidden="true"></i>
+                    <i class="fa fa-3x fa-linux" aria-hidden="true"></i>
+                    <i class="fa fa-3x fa-apple" aria-hidden="true"></i>
+                </p>
+                <p>Navigateur Web</p>
+                <p>
+                    <i class="fa fa-3x fa-chrome" aria-hidden="true"></i>
+                    <i class="fa fa-3x fa-firefox" aria-hidden="true"></i>
+                    <i class="fa fa-3x fa-safari" aria-hidden="true"></i>
+                </p>
+                <p>Versionning</p>
+                <p>
+                    <i class="fa fa-3x fa-github" aria-hidden="true"></i>
+                    <i class="fa fa-3x fa-bitbucket" aria-hidden="true"></i>
+                    <i class="fa fa-3x fa-gitlab" aria-hidden="true"></i>
+                </p>
+            </div>
+            <div id="outils">
+                <h5>Outils</h5>
+                <span><img src="{{ absolute_url(asset('img/tools/brackets.jpg')) }}"></span>
+                <span><img src="{{ absolute_url(asset('img/tools/sublimetext.jpg')) }}"></span>
+                <span><img src="{{ absolute_url(asset('img/tools/webstorm.jpg')) }}"></span>
+                <span><img src="{{ absolute_url(asset('img/tools/phpstorm.jpg')) }}"></span>
+                <span><img src="{{ absolute_url(asset('img/tools/travis.jpg')) }}"></span>
+                <span><img src="{{ absolute_url(asset('img/tools/composer.jpg')) }}"></span>
+            </div>
+        </div>
+    </footer>
+{% endblock %}
