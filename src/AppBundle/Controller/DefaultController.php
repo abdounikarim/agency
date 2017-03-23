@@ -27,8 +27,7 @@ class DefaultController extends Controller
      * @Route("/cvpdf", name="cvpdf")
      */
     public function cvpdfAction(){
-        return $this->render('cv/cvpdf.html.twig');
-        /*$html = $this->renderView('cv/cvpdf.html.twig');
+        $html = $this->renderView('cv/cvpdf.html.twig');
 
         $filename = sprintf('cv.pdf');
 
@@ -47,6 +46,6 @@ class DefaultController extends Controller
                 'Content-Type'        => 'application/pdf',
                 'Content-Disposition' => sprintf('attachment; filename="%s"', $filename),
             ]
-        );*/
+        );
     }
 }
