@@ -14,9 +14,11 @@ h2 {
     text-align: center;
 }
 h3{
+    text-align: center;
     display: inline;
     text-transform: uppercase;
     font-size: 16px;
+    font-weight: bold;
 }
 h4{
     font-size: 14px;
@@ -60,21 +62,35 @@ header img, #experience img{
 }
 
 /* EXPERIENCE */
-#experience, #formation{
-    width: 550px;
+#experience, #formation, #competence, #outils{
+    width: 49%;
     margin: auto;
+    display: inline-block;
+    vertical-align: top;
 }
-#experiencetitle{
+#experience{
+    /*border: solid 1px black;*/
+}
+#formation, #competence{
+    /*background-color: rgb(102,102,102);
+    color: #e6e6e6;*/
+}
+#experiencetitle, .logo{
     text-align: center;
 }
-.logo, .content{
-    display: inline-block;
-    vertical-align: middle;
-}
 .content{
-    width: 322px;
+    margin: 0 10px;
 }
-
+.content h4{
+    text-align: center;
+}
+.title{
+    font-weight: bold;
+}
+.date{
+    font-style: italic;
+    text-decoration: underline;
+}
 /* COMPETENCE */
 .competencecontent{
     padding-top: 10px;
@@ -92,28 +108,39 @@ header img, #experience img{
 
 /* FORMATION */
 .certificate{
+    margin-left: 25px;
+}
+
+/* OUTILS */
+.tools_content, .tools_icons{
+    display: inline-block;
+    vertical-align: middle;
+}
+.tools_content{
+    width: 240px;
+}
+.tools_align{
     display: inline-block;
     vertical-align: top;
-    margin-left: 25px;
+    width: 70px;
+    text-align: center;
 }
 /* FOOTER */
 footer{
-    width: 608px;
+    width: 794px;
     margin: auto;
 }
-#social, #environnement, #outils{
+.e{
     display: inline-block;
     vertical-align: top;
-    width: 200px;
-}
-#environnement, #outils{
+    margin: auto;
+    width: 32%;
     text-align: center;
 }
-#social p{
-    margin-left: 20px;
-}
-#environnement i{
-    margin: 0 12px;
+.e .icon{
+    width: 32%;
+    display: inline-block;
+    vertical-align: top;
 }
 #outils img{
     width: 50px;

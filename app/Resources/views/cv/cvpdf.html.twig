@@ -24,13 +24,20 @@
                 <i class="fa fa-envelope-o" aria-hidden="true"></i>
                 <span>abdounikarim@gmail.com</span><br>
                 <i class="fa fa-mobile" aria-hidden="true"></i>
-                <span>06-45-65-50-16</span>
-            </div>
-            <div id="iconright">
+                <span>06-45-65-50-16</span><br>
                 <i class="fa fa-map-marker" aria-hidden="true"></i>
                 <span>60 impasse Jacques Demy<br>85000 La Roche sur Yon</span><br>
+            </div>
+            <div id="iconright">
                 <i class="fa fa-globe" aria-hidden="true"></i>
-                <span><a href="http://abdounikarim.com">abdounikarim.com</a></span>
+                <span><a href="http://abdounikarim.com">abdounikarim.com</a></span><br>
+                <a href="https://www.linkedin.com/in/abdelkarim-abdouni-a46737107/">
+                    <i class="fa fa-linkedin-square"></i>
+                    <span>Abdouni Abdelkarim</span>
+                </a><br>
+                <i class="fa fa-skype"></i>
+                <span>abdouni.karim</span>
+
             </div>
         </div>
         <br>
@@ -45,8 +52,8 @@
                         <img src="{{ absolute_url(asset('img/experience/oc.png')) }}">
                     </div>
                     <div class="content">
-                        <h4>Mentor des métiers du web</h4>
-                        <p>De Juin 2015 à Aujourd'hui : Accompagnement des étudiants en formation diplômante de niveau II et III. Validation de compétences lors de la réalisation de projet. Réalisation de soutenance vidéos.</p>
+                        <h4><span class="title">Mentor des métiers du web</span> - <span class="date">De Juin 2015 à Aujourd'hui</span></h4>
+                        <p>Accompagnement des étudiants en formation diplômante de niveau II et III. Validation de compétences lors de la réalisation de projet. Réalisation de soutenance vidéos.</p>
                     </div>
                 </div>
                 <div id="iesa">
@@ -54,12 +61,40 @@
                         <img src="{{ absolute_url(asset('img/experience/iesa.png')) }}">
                     </div>
                     <div class="content">
-                        <h4>Intervenant Web</h4>
-                        <p>De Juin 2015 à Décembre 2015 : Accompagnement et évaluation d'étudiants en formation Chef de Projet Multimédia sur des ateliers de réalisations de projets web : module réalisateur web et webdesigner.</p>
+                        <h4><span class="title">Intervenant Web</span> - <span class="date">De Juin 2015 à Décembre 2015</span></h4>
+                        <p>Accompagnement et évaluation d'étudiants en formation Chef de Projet Multimédia sur des ateliers de réalisations de projets web : module réalisateur web et webdesigner.</p>
                     </div>
                 </div>
             </div>
         </div>
+        <div id="formation">
+            <div id="formationtitle" class="text-center">
+                <i class="fa fa-university fa-2x" aria-hidden="true"></i>
+                <h3>Formation</h3>
+            </div>
+            <div id="formationcontent"><br>
+                <div>
+                    <p><i class="fa fa-2x fa-graduation-cap" aria-hidden="true"></i><span class="title"><a href="https://openclassrooms.com/paths/expert-e-en-ingenierie-informatique">Expert en ingénierie informatique</a></span> - <span class="date">Mars 2017 - Aujourd'hui</span></p>
+                    <div class="certificate">
+                        <p>Étudiant en ligne sur la plateforme d'Openclassrooms</p>
+                        <p>Certification RNCP de niveau II</p>
+                        <p>Suivi hebdomadaire par un mentor</p>
+                    </div>
+                </div>
+                <div>
+                    <p><i class="fa fa-2x fa-list-alt" aria-hidden="true"></i><span class="title"> Certifications obtenues sur OpenClassrooms</span></p>
+                    <div class="certificate">
+                        <p><i class="fa fa-certificate" aria-hidden="true"></i> Réussissez votre transformation digitale (2017)</p>
+                        <p><i class="fa fa-certificate" aria-hidden="true"></i> Développez des sites PHP professionnels (2016)</p>
+                        <p><i class="fa fa-certificate" aria-hidden="true"></i> Développeur Web PHP/Symfony (2016)</p>
+                        <p><i class="fa fa-certificate" aria-hidden="true"></i> Disciple du JavaScript (2016)</p>
+                        <p><i class="fa fa-certificate" aria-hidden="true"></i> Lancer son propre site web (2015)</p>
+                        <p><i class="fa fa-certificate" aria-hidden="true"></i> Intégrateur Web (2015)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
         <div id="competence">
             <div id="competencetitle" class="text-center">
                 <i class="fa fa-code fa-2x" aria-hidden="true"></i>
@@ -98,24 +133,47 @@
                 </div>
             </div>
         </div>
-        <br>
-        <div id="formation">
-            <div id="formationtitle" class="text-center">
-                <i class="fa fa-university fa-2x" aria-hidden="true"></i>
-                <h3>Formation</h3>
+        <div id="outils">
+            <div id="competencetitle" class="text-center">
+                <i class="fa fa-cog fa-2x" aria-hidden="true"></i>
+                <h3>Outils</h3>
             </div>
-            <div id="formationcontent"><br>
-                <div>
-                    <p><i class="fa fa-2x fa-graduation-cap" aria-hidden="true"></i> <a href="https://openclassrooms.com/paths/expert-e-en-ingenierie-informatique">Expert en ingénierie informatique</a> : Étudiant à OpenClassrooms (Mars 2017 - Aujourd'hui)</p>
-                </div>
-                <div>
-                    <div class="certificate">
-                        <p><i class="fa fa-certificate" aria-hidden="true"></i> Développez des sites PHP professionnels (2016)</p>
-                        <p><i class="fa fa-certificate" aria-hidden="true"></i> Développeur Web PHP/Symfony (2016)</p>
+            <div class="tools">
+                <div class="tools_content">Éditeur de texte :</div>
+                <div class="tools_icons">
+                    <div class="tools_align">
+                        <span><img src="{{ absolute_url(asset('img/tools/brackets.jpg')) }}"></span><br>
+                        <span>Brackets</span>
                     </div>
-                    <div class="certificate">
-                        <p><i class="fa fa-certificate" aria-hidden="true"></i> Disciple du JavaScript (2016)</p>
-                        <p><i class="fa fa-certificate" aria-hidden="true"></i> Intégrateur Web (2015)</p>
+                    <div class="tools_align">
+                        <span><img src="{{ absolute_url(asset('img/tools/sublimetext.jpg')) }}"></span><br>
+                        <span>Sublime Text</span>
+                    </div>
+                </div>
+            </div>
+            <div class="tools">
+                <div class="tools_content">Environnement de développement</div>
+                <div class="tools_icons">
+                    <div class="tools_align">
+                        <span><img src="{{ absolute_url(asset('img/tools/webstorm.jpg')) }}"></span><br>
+                        <span>WebStorm</span>
+                    </div>
+                    <div class="tools_align">
+                        <span><img src="{{ absolute_url(asset('img/tools/phpstorm.jpg')) }}"></span><br>
+                        <span>PHPStorm</span>
+                    </div>
+                </div>
+            </div>
+            <div class="tools">
+                <div class="tools_content">Gestion de dépendances et CI</div>
+                <div class="tools_icons">
+                    <div class="tools_align">
+                        <span><img src="{{ absolute_url(asset('img/tools/travis.jpg')) }}"></span><br>
+                        <span>Travis CI</span>
+                    </div>
+                    <div class="tools_align">
+                        <span><img src="{{ absolute_url(asset('img/tools/composer.jpg')) }}"></span><br>
+                        <span>WebStorm</span>
                     </div>
                 </div>
             </div>
@@ -125,48 +183,57 @@
     <footer>
         <div id="diverstitle" class="text-center">
             <i class="fa fa-laptop fa-2x" aria-hidden="true"></i>
-            <h3>Divers</h3>
+            <h3>Environnement</h3>
         </div>
         <div id="diverscontent">
-            <div id="social">
-                <h5>Réseaux Sociaux</h5>
-                <p><i class="fa fa-2x fa-linkedin-square"></i> Abdouni Abdelkarim</p>
-                <p><i class="fa fa-2x fa-google-plus-square"></i> Abdouni Karim</p>
-                <p><i class="fa fa-2x fa-twitter-square"></i> @abdounikarim</p>
-                <p><i class="fa fa-2x fa-facebook-square"></i> Abdouni Abdelkarim</p>
-                <p><i class="fa fa-2x fa-youtube-square"></i> Abdouni Karim</p>
-                <p><i class="fa fa-2x fa-skype"></i> abdouni.karim</p>
-            </div>
             <div id="environnement">
-                <h5>Environnement</h5>
-                <p>Operating System</p>
-                <p>
-                    <i class="fa fa-3x fa-windows" aria-hidden="true"></i>
-                    <i class="fa fa-3x fa-linux" aria-hidden="true"></i>
-                    <i class="fa fa-3x fa-apple" aria-hidden="true"></i>
-                </p>
-                <p>Navigateur Web</p>
-                <p>
-                    <i class="fa fa-3x fa-chrome" aria-hidden="true"></i>
-                    <i class="fa fa-3x fa-firefox" aria-hidden="true"></i>
-                    <i class="fa fa-3x fa-safari" aria-hidden="true"></i>
-                </p>
-                <p>Versionning</p>
-                <p>
-                    <i class="fa fa-3x fa-github" aria-hidden="true"></i>
-                    <i class="fa fa-3x fa-bitbucket" aria-hidden="true"></i>
-                    <i class="fa fa-3x fa-gitlab" aria-hidden="true"></i>
-                </p>
+                <div class="e">
+                    <h5>Operating System</h5>
+                    <div class="icon">
+                        <i class="fa fa-3x fa-windows" aria-hidden="true"></i><br>
+                        <span>Windows</span>
+                    </div>
+                    <div class="icon">
+                        <i class="fa fa-3x fa-linux" aria-hidden="true"></i><br>
+                        <span>Linux</span>
+                    </div>
+                    <div class="icon">
+                        <i class="fa fa-3x fa-apple" aria-hidden="true"></i><br>
+                        <span>Mac OS</span>
+                    </div>
+                </div>
+                <div class="e">
+                    <h5>Navigateur Web</h5>
+                    <div class="icon">
+                        <i class="fa fa-3x fa-chrome" aria-hidden="true"></i><br>
+                        <span>Chrome</span>
+                    </div>
+                    <div class="icon">
+                        <i class="fa fa-3x fa-firefox" aria-hidden="true"></i><br>
+                        <span>Firefox</span>
+                    </div>
+                    <div class="icon">
+                        <i class="fa fa-3x fa-safari" aria-hidden="true"></i><br>
+                        <span>Safari</span>
+                    </div>
+                </div>
+                <div class="e">
+                    <h5>Versionning</h5>
+                    <div class="icon">
+                        <i class="fa fa-3x fa-github" aria-hidden="true"></i><br>
+                        <span>Github</span>
+                    </div>
+                    <div class="icon">
+                        <i class="fa fa-3x fa-bitbucket" aria-hidden="true"></i><br>
+                        <span>Bitbucket</span>
+                    </div>
+                    <div class="icon">
+                        <i class="fa fa-3x fa-gitlab" aria-hidden="true"></i><br>
+                        <span>Gitlab</span>
+                    </div>
+                </div>
             </div>
-            <div id="outils">
-                <h5>Outils</h5>
-                <span><img src="{{ absolute_url(asset('img/tools/brackets.jpg')) }}"></span>
-                <span><img src="{{ absolute_url(asset('img/tools/sublimetext.jpg')) }}"></span>
-                <span><img src="{{ absolute_url(asset('img/tools/webstorm.jpg')) }}"></span>
-                <span><img src="{{ absolute_url(asset('img/tools/phpstorm.jpg')) }}"></span>
-                <span><img src="{{ absolute_url(asset('img/tools/travis.jpg')) }}"></span>
-                <span><img src="{{ absolute_url(asset('img/tools/composer.jpg')) }}"></span>
-            </div>
+
         </div>
     </footer>
 {% endblock %}
